@@ -19,7 +19,7 @@ body{
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(images/cedric-vt-ua0SnGdN-m8-unsplash\ \(1\).jpg);
+    background-image: url(images/field.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -54,6 +54,12 @@ nav ul li a{
     text-decoration: none;
     font-size: 25px;
     position: relative;
+
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 nav ul li a::after{
@@ -72,15 +78,21 @@ nav ul li a:hover::after{
 }
 
 .singleCol{
-    margin-top: 10px;
-    margin-left: 20px;
+    margin-top: 5%;
+    margin-left: 45%;
 }
 
 .header-text{
     margin-top: 17%;
     margin-left: 0%;
     font-size: 60px;
-    
+
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+
 }
 
 .header-text h1{
@@ -92,8 +104,8 @@ nav ul li a:hover::after{
     color: #fff;
     transition: color 0.2s;
     text-decoration: none;
-    margin-left: 34%;
-    margin-top: 10000px;
+
+
 }
 
 .social-icon1:hover{
@@ -104,8 +116,6 @@ nav ul li a:hover::after{
     color: #fff;
     transition: color 0.2s;
     text-decoration: none;
-    margin-left: 30px;
-    margin-top: 10000px;
 }
 
 .social-icon2:hover{
@@ -129,6 +139,12 @@ nav ul li a:hover::after{
 
 .about-col-1{
     flex-basis: 35%;
+}
+
+.name{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .about-col-1 img {
